@@ -1,0 +1,51 @@
+page {
+  background-color: #363636;
+}
+
+.textBox {
+  display: flex;
+  color: #ccc;
+  padding: 10px 12px 0;
+}
+.heroTitle{
+  font-size: 14px;
+}
+.left {
+  width: 191px;
+}
+
+.right {
+  flex: 1;
+  font-size: 14px;
+}
+
+image {
+  width: 100%;
+}
+.heroName{
+  margin: 4px 0 12px;
+  font-size: 20px;
+}
+.abBox{
+  margin-top: 18px;
+}
+.ability {
+  display: flex;
+  font-size: 12px;
+}
+.ability progress{
+  width: 100px;
+  margin-left: 8px;
+}
+.tags text{
+  display: inline-block;
+  width: 30px;
+  height: 22px;
+  background-color: #029b7f;
+  margin-right: 4px;
+  line-height: 22px;
+  text-align: center;
+  border-radius: 4px;
+  font-size: 12px;
+  color: #fff;
+}

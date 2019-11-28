@@ -1,0 +1,7 @@
+<view class="heroItem">
+<!-- 给英雄头像添加点击事件 -->
+  <view bindtap="toDetail" class="box" wx:for="{{heroList}}" data-id="{{item.id}}" wx:key="id">
+    <image src="{{item.iconUrl}}"></image>
+    <text>{{item.name}}</text>
+  </view>
+</view>
